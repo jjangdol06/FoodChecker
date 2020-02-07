@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fcgreen">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/slogan"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="16:9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.72"  />
+
+        <ImageView
+            android:id="@+id/menutxt"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="135dp"
+            android:src="@drawable/menutxt"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.811"
+            app:layout_constraintStart_toEndOf="@+id/search_text"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.749" />
+
+        <ImageView
+            android:id="@+id/cast"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/cast"
+            app:layout_constraintCircle="@+id/menutxt"
+            app:layout_constraintCircleAngle="0"
+            app:layout_constraintCircleRadius="120dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.655"/>
+
+        <ImageView
+            android:id="@+id/search_camera"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/camera"
+            app:layout_constraintCircle="@+id/menutxt"
+            app:layout_constraintCircleAngle="72"
+            app:layout_constraintCircleRadius="120dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.655"/>
+
+        <ImageView
+            android:id="@+id/search_gallery"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/gallery"
+            app:layout_constraintCircle="@+id/menutxt"
+            app:layout_constraintCircleAngle="144"
+            app:layout_constraintCircleRadius="120dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.655"/>
+
+        <ImageView
+            android:id="@+id/search_text"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/text"
+            app:layout_constraintCircle="@+id/menutxt"
+            app:layout_constraintCircleAngle="216"
+            app:layout_constraintCircleRadius="120dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.655"/>
+
+        <ImageView
+            android:id="@+id/mypage_settings"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/mypage"
+            app:layout_constraintCircle="@+id/menutxt"
+            app:layout_constraintCircleAngle="288"
+            app:layout_constraintCircleRadius="120dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.655"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

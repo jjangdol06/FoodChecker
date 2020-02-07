@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "530778653186",
+    "firebase_url": "https://foodchecker-f9593.firebaseio.com",
+    "project_id": "foodchecker",
+    "storage_bucket": "foodchecker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530778653186:android:2e375abb2ac52acc3d5d1b",
+        "android_client_info": {
+          "package_name": "com.cookandroid.foodchecker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "530778653186-s4egehh1itlbuqmbqie3manj70npgt22.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cookandroid.foodchecker",
+            "certificate_hash": "081b6ec9599dfeaae926aab1e30ef1ff6f0873b2"
+          }
+        },
+        {
+          "client_id": "530778653186-qqfq6vodhb3rb65emg77dg2l5rq53319.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAaTAdACnS4UYUPjD-K9FRQiTvnuSjGCs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "530778653186-qqfq6vodhb3rb65emg77dg2l5rq53319.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

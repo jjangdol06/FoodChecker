@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/fcgreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="추천 동영상"
+                android:textSize="25dp" />
+
+            <view
+                android:id="@+id/youtubeView"
+                class="com.google.android.youtube.player.YouTubePlayerView"
+                id="@+id/view3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/showVideoBtn"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="play" />
+
+            <view
+                android:id="@+id/youtubeView2"
+                class="com.google.android.youtube.player.YouTubePlayerView"
+                id="@+id/view4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/showVideoBtn2"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="play" />
+
+            <view
+                android:id="@+id/youtubeView3"
+                class="com.google.android.youtube.player.YouTubePlayerView"
+                id="@+id/view5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/showVideoBtn3"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="play" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/listview_youtube"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:scrollbars="vertical" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
